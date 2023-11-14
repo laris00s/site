@@ -1,0 +1,98 @@
+.centrocabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+    color: beige;
+}
+#logodiv{
+    width: 240px;
+    height: 80px;
+    display: flex;
+    
+    justify-content: center;
+    background-color:rgb(255, 174, 200) ;
+
+
+}
+
+#logo{
+    background-size: contain;
+    width: 180px;
+    height: 90px;
+    
+}
+
+.cabecalho{
+    display: flex;
+    background-color: rgb(255, 174, 200) ;
+    justify-content: space-around;
+    width: 90%;
+    height: 100px;
+    align-items: center;
+    
+}
+.usuario{
+    display: flex;
+    
+}
+
+#carrinho{
+    background-color: rgb(255, 174, 200);
+    margin-right: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: solid rgb(167, 197, 198) 2px;
+    color: white;
+    
+    
+}
+
+#conta{
+    background-color: rgb(255, 174, 200);
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: solid rgb(167, 197, 198) 2px;
+    color: white;
+    
+}
+
+button{
+    color: white;
+    border: solid rgb(167, 197, 198) 2px;
+    background-color: rgb(255, 174, 200);
+}
+
+#search{
+    border: solid rgb(167, 197, 198) 2px;
+    
+}
+i{
+    color: white;
+}
+
+#login{
+    background-color: rgb(200, 233, 233);
+    width: 500px;
+}
+
+#registro{
+    background-color:rgb(200, 233, 233) ;
+    width: 500px;
+    height: 500px;
+}
+#dados{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+}
