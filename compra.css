@@ -1,43 +1,50 @@
-.centrocabecalho {
+.centrocabecalho{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
-a {
+.link{
     text-transform: none;
     text-decoration: none;
     color: beige;
 }
-
-#logodiv {
+a{
+    color: rgb(253, 94, 165);
+}
+#logodiv{
     width: 240px;
     height: 80px;
     display: flex;
+    
     justify-content: center;
-    background-color: rgb(255, 174, 200);
+    background-color:rgb(255, 174, 200) ;
+
+
 }
 
-#logo {
+#logo{
     background-size: contain;
     width: 180px;
     height: 90px;
+    
 }
 
-.cabecalho {
+.cabecalho{
     display: flex;
-    background-color: rgb(255, 174, 200);
+    background-color: rgb(255, 174, 200) ;
     justify-content: space-around;
-    width: 90%;
+    width: 97%;
     height: 100px;
     align-items: center;
+    
 }
-
-.usuario {
+.usuario{
     display: flex;
+    
 }
 
-#carrinho {
+#carrinho{
     background-color: rgb(255, 174, 200);
     margin-right: 15px;
     width: 120px;
@@ -46,9 +53,11 @@ a {
     line-height: 30px;
     border: solid rgb(167, 197, 198) 2px;
     color: white;
+    
+    
 }
 
-#conta {
+#conta{
     background-color: rgb(255, 174, 200);
     width: 120px;
     height: 30px;
@@ -56,78 +65,64 @@ a {
     line-height: 30px;
     border: solid rgb(167, 197, 198) 2px;
     color: white;
-
+    
 }
 
-button {
+button{
     color: white;
     border: solid rgb(167, 197, 198) 2px;
     background-color: rgb(255, 174, 200);
-
 }
 
-#search {
+#search{
     border: solid rgb(167, 197, 198) 2px;
     background-color: rgb(252, 235, 177);
-
+    
+}
+i{
+    color: white;
 }
 
-i {
-    color: rgb(255, 255, 255);
-
-}
-h3{
-    text-align: center;
-}
 .centro{
     display: flex;
     justify-content:space-around;
 }
-
-#icone1 {
-    color: rgb(93, 76, 119);
-
+.produtos{
+    background-color: rgb(238, 204, 231);
+    width: 400px;
+    height: 300px;
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
 
 }
-
-.titulos {
+#descricao{
     display: flex;
     justify-content: space-between;
-    width: 800px;
-    margin-left: 75px;
+    border-bottom: solid rgb(167, 197, 198) 2px;
 }
-
-.imageprod {
-    display: flex;
-}
-
-.produtos {
-    width: 800px;
-    height: 310px;
-}
-
-.produto {
+#produto1{
     display: flex;
     justify-content: space-between;
-    border-top: solid rgb(180, 116, 139) 1px;
-
+    border-bottom: dotted rgb(167, 197, 198) 5px;
 }
-
-.imagem {
-    width: 90px;
-    height: 80px;
+#produto2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted rgb(167, 197, 198) 5px;
 }
-
-.numero {
-    width: 40px;
-    height: 15px;
+#produto3{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted rgb(167, 197, 198) 5px;
 }
 .resumo{
-    width: 300px;
-    height: 270px;
-    background-color: rgb(238, 204, 231);
-    box-shadow: 2px 5px 15px rgb(238, 204, 231);
+    background-color: rgb(252, 235, 177);
+    width: 400px;
+    height: 300px;
+    margin-top: 25px;
     text-align: center;
+    padding: 15px;
 }
 #subtotal{
     display: flex;
@@ -137,7 +132,12 @@ h3{
     display: flex;
     justify-content: space-between;
 }
+#cupom{
+    display: flex;
+    justify-content: space-between;
+}
 #total{
     display: flex;
     justify-content: space-between;
+    border-top: solid rgb(255, 174, 200) 2px;
 }

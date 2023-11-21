@@ -73,6 +73,7 @@ button{
 
 #search{
     border: solid rgb(167, 197, 198) 2px;
+    background-color: rgb(252, 235, 177);
     
 }
 i{
@@ -80,14 +81,18 @@ i{
 }
 
 #login{
-    background-color: rgb(200, 233, 233);
+    background-color: rgb(252, 235, 177);
+    box-shadow: 2px 5px 15px rgb(252, 235, 177);
     width: 500px;
+    margin-bottom: 25px;
 }
 
 #registro{
-    background-color:rgb(200, 233, 233) ;
+    background-color:rgb(238, 204, 231) ;
+    box-shadow: 2px 5px 15px rgb(238, 204, 231);
     width: 500px;
     height: 500px;
+    margin-bottom: 25px;
 }
 #dados{
     display: flex;
@@ -95,4 +100,33 @@ i{
 }
 h2{
     text-align: center;
+}
+#estrelafooter{
+    background-image: url(estrela.webp);
+    background-repeat: repeat;
+    width: 97%;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color: rgb(252, 235, 177) ;
+    width: 97%;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 10px;
+}
+
+#logorodape{
+    width: 200px;
+    height: 90px;
 }
