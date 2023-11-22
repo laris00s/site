@@ -17,11 +17,8 @@ a{
     width: 240px;
     height: 80px;
     display: flex;
-    
     justify-content: center;
     background-color:rgb(255, 174, 200) ;
-
-
 }
 
 #logo{
@@ -180,6 +177,17 @@ header{
     margin-left: 20px;
     display: flex;
 }
+
+
+#rodape2{
+    width: 97%;
+    background-color: rgb(255, 174, 200) ;
+    height: 130px;
+    justify-content: space-around;
+    
+}
+
+
 #rodape{
     display: flex;
     align-items: center;
@@ -203,8 +211,9 @@ footer{
 .pagamentos{
     width: 35px;
     height: 30px;
+    
 }
-#subrodape{
+.subrodape{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,10 +221,9 @@ footer{
 }
 
 #subfooter{
-    background-color: rgb(167, 197, 198) ;
-    width: 1199px;
+    background-color: rgb(238, 204, 231) ;
+    width: 97%;
     height: 125px;
-    margin-bottom: 20px;
     padding-top: 0px;
     
 

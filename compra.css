@@ -2,16 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+   
 }
+
 .link{
     text-transform: none;
     text-decoration: none;
     color: beige;
 }
+
 a{
     color: rgb(253, 94, 165);
 }
+
 #logodiv{
     width: 240px;
     height: 80px;
@@ -19,8 +22,6 @@ a{
     
     justify-content: center;
     background-color:rgb(255, 174, 200) ;
-
-
 }
 
 #logo{
