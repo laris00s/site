@@ -80,10 +80,11 @@ i{
 .centro{
     display: flex;
     justify-content:space-around;
+    margin-bottom: 25px;
 }
 
 .produtos{
-    background-color: rgb(238, 204, 231);
+    background-color: rgb(238, 186, 202);
     width: 400px;
     height: 300px;
     margin-top: 25px;
@@ -143,6 +144,25 @@ i{
     display: flex;
     justify-content: space-between;
     border-top: solid rgb(255, 174, 200) 2px;
+}
+
+#endereço{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(238, 204, 231);
+    justify-content: space-around;
+    text-align: center;
+}
+
+#formapagamento{
+    width: 400px;
+    background-color: rgb(183, 230, 231);
+    justify-content: space-around;
+    text-align: center;
+}
+
+#debito{
+    margin-bottom: 25px;
 }
 
 #estrelafooter{
