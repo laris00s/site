@@ -2,29 +2,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 a{
     text-transform: none;
     text-decoration: none;
     color: beige;
 }
+
 #logodiv{
     width: 240px;
     height: 80px;
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     background-color:rgb(255, 174, 200) ;
-
-
 }
 
 #logo{
     background-size: contain;
     width: 180px;
     height: 90px;
-    
 }
 
 .cabecalho{
@@ -34,11 +31,10 @@ a{
     width: 90%;
     height: 100px;
     align-items: center;
-    
 }
+
 .usuario{
-    display: flex;
-    
+    display: flex;    
 }
 
 #carrinho{
@@ -50,8 +46,6 @@ a{
     line-height: 30px;
     border: solid rgb(167, 197, 198) 2px;
     color: white;
-    
-    
 }
 
 #conta{
@@ -62,7 +56,6 @@ a{
     line-height: 30px;
     border: solid rgb(167, 197, 198) 2px;
     color: white;
-    
 }
 
 button{
@@ -74,8 +67,8 @@ button{
 #search{
     border: solid rgb(167, 197, 198) 2px;
     background-color: rgb(252, 235, 177);
-    
 }
+
 i{
     color: white;
 }
@@ -85,6 +78,7 @@ i{
     box-shadow: 2px 5px 15px rgb(252, 235, 177);
     width: 500px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 #registro{
@@ -93,16 +87,21 @@ i{
     width: 500px;
     height: 500px;
     margin-bottom: 25px;
+    text-align: center;
 }
+
 #dados{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 25px;
 }
+
 h2{
     text-align: center;
 }
+
 #estrelafooter{
-    background-image: url(estrela.webp);
+    background-image: url(images/estrela.webp);
     background-repeat: repeat;
     width: 97%;
     height: 30px;
@@ -110,11 +109,11 @@ h2{
     margin-left: 20px;
     display: flex;
 }
+
 #rodape{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 footer{
@@ -124,9 +123,61 @@ footer{
     justify-content: space-around;
     display: flex;
     padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;
 }
 
 #logorodape{
     width: 200px;
     height: 90px;
+}
+
+.pagamentos{
+    width: 35px;
+    height: 30px;    
+}
+
+.subrodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#subfooter{
+    background-color: rgb(238, 204, 231) ;
+    width: 97%;
+    height: 125px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+li{
+    list-style-type: none;
+    text-shadow: 1px 1px grey;
+}
+
+.linkrodape{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight:bold;
+}
+
+.selos{
+    width: 95px;
+    height: 40px;
+}
+
+#pagamento1{
+    display: flex;
+}
+
+#pagamento2{
+    display: flex;
+}
+
+.textorodape{
+    color: white;
+    text-shadow: 2px 2px grey;
 }

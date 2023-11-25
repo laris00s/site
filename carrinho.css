@@ -56,29 +56,26 @@ a {
     line-height: 30px;
     border: solid rgb(167, 197, 198) 2px;
     color: white;
-
 }
 
 button {
     color: white;
     border: solid rgb(167, 197, 198) 2px;
     background-color: rgb(255, 174, 200);
-
 }
 
 #search {
     border: solid rgb(167, 197, 198) 2px;
     background-color: rgb(252, 235, 177);
-
 }
 
 i {
     color: rgb(255, 255, 255);
-
 }
 h3{
     text-align: center;
 }
+
 .centro{
     display: flex;
     justify-content:space-around;
@@ -86,8 +83,6 @@ h3{
 
 #icone1 {
     color: rgb(93, 76, 119);
-
-
 }
 
 .titulos {
@@ -110,7 +105,6 @@ h3{
     display: flex;
     justify-content: space-between;
     border-top: solid rgb(180, 116, 139) 1px;
-
 }
 
 .imagem {
@@ -122,6 +116,7 @@ h3{
     width: 40px;
     height: 15px;
 }
+
 .resumo{
     width: 300px;
     height: 270px;
@@ -129,15 +124,100 @@ h3{
     box-shadow: 2px 5px 15px rgb(238, 204, 231);
     text-align: center;
 }
+
 #subtotal{
     display: flex;
     justify-content: space-between;
 }
+
 #frete{
     display: flex;
     justify-content: space-between;
 }
+
 #total{
     display: flex;
     justify-content: space-between;
+}
+
+#estrelafooter{
+    background-image: url(images/estrela.webp);
+    background-repeat: repeat;
+    width: 97%;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+footer{
+    background-color: rgb(252, 235, 177) ;
+    width: 97%;
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;
+}
+
+#logorodape{
+    width: 200px;
+    height: 90px;
+}
+
+.pagamentos{
+    width: 35px;
+    height: 30px;
+}
+
+.subrodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#subfooter{
+    background-color: rgb(238, 204, 231) ;
+    width: 97%;
+    height: 125px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+li{
+    list-style-type: none;
+    text-shadow: 1px 1px grey;
+} 
+
+.linkrodape{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight:bold;
+}
+
+.selos{
+    width: 95px;
+    height: 40px;
+}
+
+#pagamento1{
+    display: flex;
+}
+
+#pagamento2{
+    display: flex;
+}
+
+.textorodape{
+    color: white;
+    text-shadow: 2px 2px grey;
 }
