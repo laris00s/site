@@ -184,6 +184,9 @@ p {
 
 h2 {
     color: rgb(78, 30, 52);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;
+    text-shadow: 2px 2px rgb(255, 255, 255);
 }
 .centro{
     display: flex;
@@ -211,6 +214,98 @@ h2 {
     border-radius: 20px;
     padding: 8px 40px;
     margin-top: 5px;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pangolin', cursive;
+    color: rgb(78, 30, 52);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+#centro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sobre {
+    width: 980px;
+    height: 560px;
+    background-color: rgb(252, 235, 177);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#sobrecentro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sobre2 {
+    width: 887px;
+    background-color: rgb(238, 204, 231);
+    margin-top: 25px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#valores {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#missao {
+    width: 420px;
+    background-color: rgb(238, 204, 231);
+    margin-top: 25px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#visao {
+    width: 420px;
+    background-color: rgb(238, 204, 231);
+    margin-top: 25px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#valores2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dev {
+    width: 420px;
+    background-color: rgb(238, 204, 231);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#logoimg {
+    width: 130px;
+    height: 70px;
+}
+
+#imgmacaquinho {
+    width: 50px;
+}
+
+#musa {
+    width: 420px;
+    background-color: rgb(238, 204, 231);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.titulos {
+    color: white;
+    text-shadow: 2px 2px grey;
 }
 
 #estrelafooter{
