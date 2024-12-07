@@ -385,4 +385,59 @@ li{
     display: flex;
 }
 
+/*pagina de registro/login */
+#login{
+    background-color: rgb(252, 235, 177);
+    box-shadow: 2px 5px 15px rgb(252, 235, 177);
+    width: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#registro{
+    background-color:rgb(238, 204, 231) ;
+    box-shadow: 2px 5px 15px rgb(238, 204, 231);
+    width: 500px;
+    height: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.centrocabecalho-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-transform: none;
+    text-decoration: none;
+    color: beige;
+}
+
+#login{
+    background-color: rgb(252, 235, 177);
+    box-shadow: 2px 5px 15px rgb(252, 235, 177);
+    width: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#registro{
+    background-color:rgb(238, 204, 231) ;
+    box-shadow: 2px 5px 15px rgb(238, 204, 231);
+    width: 500px;
+    height: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#dados{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+
+
 
