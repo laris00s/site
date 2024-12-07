@@ -409,12 +409,6 @@ li{
     justify-content: center;
 }
 
-a{
-    text-transform: none;
-    text-decoration: none;
-    color: beige;
-}
-
 #login{
     background-color: rgb(252, 235, 177);
     box-shadow: 2px 5px 15px rgb(252, 235, 177);
