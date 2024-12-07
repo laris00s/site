@@ -220,6 +220,7 @@ h3 {
     font-family: 'Pangolin', cursive;
     color: rgb(78, 30, 52);
     text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: center;
 }
 
 #centro {
@@ -418,7 +419,12 @@ li{
 /*pagina de carrinho */
 .centro-carrinho{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#centralizar{
+    width: 100%
 }
 
 #icone1 {
@@ -426,60 +432,78 @@ li{
 }
 
 .titulos-carrinho {
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr 1fr; /* Define as colunas de acordo com o conteúdo */
+    gap: 10px;
+    width: 100%;
+    max-width: 900px;
     margin-left: 75px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    padding: 10px 0;
+}
+
+.titulos-carrinho p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
 }
 
 .imageprod {
     display: flex;
+    align-items: center; /* Alinha o texto e a imagem verticalmente */
 }
 
 .produtos-carrinho {
-    width: 800px;
-    height: 310px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 }
 
 .produto-carrinho {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr; /* Define as colunas de acordo com o conteúdo */
+    gap: 10px;
     border-top: solid rgb(180, 116, 139) 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center; /* Alinha os itens verticalmente no centro */
 }
 
 .imagem {
     width: 90px;
-    height: 80px;
+    height: auto;
 }
 
 .numero {
-    width: 40px;
-    height: 15px;
+    width: 60px;
+    height: 30px;
+    text-align: center; /* Alinha o número no centro */
 }
 
-.resumo{
+.prodtitulo h5, .prodtitulo h6 {
+    margin: 0;
+    text-align: left;
+}
+
+.resumo {
     width: 300px;
-    height: 270px;
+    height: auto;
     background-color: rgb(238, 204, 231);
     box-shadow: 2px 5px 15px rgb(238, 204, 231);
     text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-#subtotal{
+#subtotal, #frete, #total {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
-#frete{
-    display: flex;
-    justify-content: space-between;
+#subtotal p, #frete p, #total p {
+    margin: 0;
 }
-
-#total{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
