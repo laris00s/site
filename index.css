@@ -195,6 +195,8 @@ h2 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
+
 .conteudo {
     display: flex;
     justify-content: center;
@@ -506,4 +508,37 @@ li{
 
 #subtotal p, #frete p, #total p {
     margin: 0;
+}
+
+/*pagina dashboard*/
+#relatorios{
+    background-color: rgb(238, 204, 231);
+    width: 200px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#produtos{
+    width: 700px;
+    box-shadow: 3px 3px  20px rgb(229, 225, 220);
+    padding-bottom: 80px;
+}
+.imgproduto{
+    width: 50px;
+    height: 50px;
+}
+
+#titulos{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    width: 530px;
+}
+
+.produto{
+    display: flex;
+    justify-content: space-around;
+    border-top: dotted rgb(167, 197, 198) 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
