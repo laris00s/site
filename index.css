@@ -416,7 +416,7 @@ li{
 }
 
 /*pagina de carrinho */
-.centro{
+.centro-carrinho{
     display: flex;
     justify-content:space-around;
 }
