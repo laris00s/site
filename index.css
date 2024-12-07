@@ -542,3 +542,18 @@ li{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/*pagina novo produto*/
+#relatorios-novo{
+    background-color: rgb(238, 204, 231);
+    width: 200px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+#produto-novo{
+    width: 500px;
+    background-color: rgb(183, 230, 231);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
