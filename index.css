@@ -425,7 +425,7 @@ li{
     color: rgb(93, 76, 119);
 }
 
-.titulos {
+.titulos-carrinho {
     display: flex;
     justify-content: space-between;
     width: 800px;
@@ -436,12 +436,12 @@ li{
     display: flex;
 }
 
-.produtos {
+.produtos-carrinho {
     width: 800px;
     height: 310px;
 }
 
-.produto {
+.produto-carrinho {
     display: flex;
     justify-content: space-between;
     border-top: solid rgb(180, 116, 139) 1px;
